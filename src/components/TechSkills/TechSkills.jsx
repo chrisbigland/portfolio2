@@ -1,9 +1,10 @@
 import React from 'react'
+import Icon from '../Icon';
 
 const TechSkills = () => {
   return (
     <div>
-      TechSkills Works...
+      <Icon />
     </div>
   )
 }
