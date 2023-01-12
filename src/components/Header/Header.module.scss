@@ -1,0 +1,62 @@
+@import '../../abstracts/variables.scss';
+
+.header {
+    margin: 100px 100px 100px 250px;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 2fr auto;
+}
+
+.Header_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.Header_mainHeading {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header_mainHeading___name {
+    font-size: 20px;
+    font-family: $font-display;
+}
+
+.Header_workButton {
+    text-align: center;
+    max-width: 200px;
+    min-width: 175px;
+    height: 2rem;
+    padding-top: 0.25rem;
+}
+
+.Header_myPic {
+    height: 80%;
+    width: auto;
+    margin-block: auto;
+    border-radius: 10px;
+}
+
+.Header_subHeading {
+    color: $color-secondary;
+}
+
+.Header_myPhoto {
+    margin-right: 400px;
+    position: relative;
+
+    .img-circle {
+        position: absolute;
+        top: 50px;
+        left: -50px;
+    }
+
+    .img-squig {
+    position: absolute;
+    bottom: 100px;
+    right: -100px;
+    }
+
+}

@@ -1,0 +1,21 @@
+@import '../../abstracts/variables.scss';
+
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5rem 3rem;
+    margin: 20px;
+    height: 10%;
+    background-color: #fafafa;
+    font-size: 2rem;
+  }
+  .Navigation_button {
+    padding: 1.5rem;
+    color: #272644;
+  }
+  .Navigation_name {
+    color: #272644;
+  }
+  .Navigation_buttons {
+    display: inline-block;
+  }

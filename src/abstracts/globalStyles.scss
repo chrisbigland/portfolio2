@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.button {
+  border: 2px solid #272644;
+  background-color: #BAE8EA;
+  border-radius: 5px;
+  min-width: 100px;
+  color: #272644;
+}
+
+.underline {
+  // background-color: blue;
+  padding:0 .2em;
+  box-shadow: inset 0 -.6em $color-primary;
+  color: $color-secondary;
+}
