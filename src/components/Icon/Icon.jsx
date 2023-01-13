@@ -4,7 +4,7 @@ import '../../abstracts/globalStyles.scss'
 const Icon = () => {
   return (
     <div>
-      Icon Works...
+
     </div>
   )
 }

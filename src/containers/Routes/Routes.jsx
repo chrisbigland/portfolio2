@@ -9,9 +9,9 @@ const Routes = () => {
   return (
     <div>
       <Header />
-      <AboutMe />
       <TechSkills />
       <ProjectsContainer />
+      <AboutMe />
     </div>
   );
 }

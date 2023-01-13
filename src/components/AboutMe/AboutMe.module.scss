@@ -1,1 +1,38 @@
 @import '../../abstracts/variables.scss';
+
+.AboutMe {
+    height: 65vh;
+    padding: 50px 100px;
+    width: 100%;
+    background-color: #ddf5f3;
+    display: flex;
+    justify-content: space-between;
+  }
+  .AboutMe_content {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddf5f3;
+    padding: 50px;
+    justify-content: center;
+    width: 75%;
+  }
+  .AboutMe_title {
+    color: #272644;
+    background-color: #ddf5f3;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .AboutMe_p {
+    background-color: #ddf5f3;
+    color: #8C9CB1;
+    font-size: 1rem;
+  }
+  .AboutMe_cartoon {
+    background-color: #ddf5f3;
+    display: flex;
+    align-items: center;
+  }
+  .AboutMe_cartoonImg {
+    height: 40vh;
+    background-color: #ddf5f3;
+  }
