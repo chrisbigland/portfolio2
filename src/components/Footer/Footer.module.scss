@@ -1,1 +1,25 @@
 @import '../../abstracts/variables.scss';
+
+.Footer {
+    min-height: 100px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #272644;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .Footer_content {
+    background-color: #272644;
+    color: #fafafa;
+  }
+  .Footer_contentIcon {
+    background-color: #272644;
+    color: #fafafa;
+  }
+  .Footer_icons {
+    background-color: #272644;
+  }
+  .Footer_link {
+    background-color: #272644;
+  }
