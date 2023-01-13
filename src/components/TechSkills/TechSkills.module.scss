@@ -1,0 +1,44 @@
+@import '../../abstracts/variables.scss';
+
+.TechSkills {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .TechSkills_techText {
+    padding: 0px 400px;
+    color: #8C9CB1;
+    font-size: 1rem;
+  }
+  .TechSkills_title {
+    padding: 0 0.2em;
+    box-shadow: inset 0 -0.6em #ddf5f3;
+    color: #272644;
+    font-size: 1.5rem;
+  }
+
+  .TechSkills_icons {
+    display: flex;
+    column-gap: 10%;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .TechSkills_skillIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .TechSkills_text {
+    color: #8C9CB1;
+  }
+
+  .jsIcon {
+    width: 40px;
+    height: 40px;
+    fill: #BAE8EA;
+  }

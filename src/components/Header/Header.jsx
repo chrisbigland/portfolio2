@@ -20,6 +20,7 @@ const Header = () => {
         <a href="#projects" className={`button ${styles.Header_workButton}`}>
           Take a look at my work
         </a>
+        <h1><i class="fab fa-js"></i></h1>
       </div>
       <div className={styles.Header_myPhoto}>
         <img
