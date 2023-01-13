@@ -3,6 +3,8 @@ import Icon from '../Icon';
 import styles from './TechSkills.module.scss'
 import '../../abstracts/globalStyles.scss'
 import jsIcon from "../../images/js.svg"
+
+
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { "fab fa-js" } from '@fortawesome/free-solid-svg-icons'
 

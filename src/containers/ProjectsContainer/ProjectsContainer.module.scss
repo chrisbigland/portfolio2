@@ -1,0 +1,53 @@
+.sectionTwo {
+    padding: 0px 100px;
+}
+
+.Projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+    justify-items: center;
+  }
+  .Projects_projectBox {
+    width: 400px;
+    height: 300px;
+    background-color: #ddf5f3;
+  }
+  .Projects_project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Projects_projTool {
+    font-size: 15px;
+    font-weight: 900;
+    color: #BAE8EA;
+    padding-top: 10px;
+  }
+  .Projects_projText {
+    text-align: center;
+    padding-top: 10px;
+    color: #8C9CB1;
+  }
+  .Projects_projSectTitle {
+    color: #272644;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 10px;
+  }
+  .Projects_codPrevIcons {
+    padding-top: 10px;
+  }
+  .Projects_title {
+    color: #272644;
+    box-shadow: inset 0 -0.6em #ddf5f3;
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    margin: 200px 0px 100px 0px;
+    color: #272644;
+  }
+  .Projects_titleCase {
+    text-align: center;
+  }
