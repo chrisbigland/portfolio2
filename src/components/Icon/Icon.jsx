@@ -8,12 +8,11 @@ const Icon = (props) => {
   const { icon, name, iconContainerStyles, textStyle } = props;
 
   return (
-    <div>
+
       <div className={iconContainerStyles}> 
         {icon}
         <span className={textStyle}>{name}</span>
       </div>
-    </div>
   );
 }
 

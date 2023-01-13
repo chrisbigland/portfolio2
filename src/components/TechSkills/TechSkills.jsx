@@ -2,25 +2,23 @@ import React from 'react'
 import Icon from '../Icon';
 import styles from './TechSkills.module.scss'
 import '../../abstracts/globalStyles.scss'
-import jsIcon from "../../images/js.svg"
-import { DiJsBadge, DiCss3 } from "react-icons/di";
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { "fab fa-js" } from '@fortawesome/free-solid-svg-icons'
+import bEMIconPath from "../../images/bem.svg"
+import { DiJsBadge, DiCss3, DiHtml5, DiGithubBadge, DiSass, DiReact, DiNodejsSmall } from "react-icons/di";
 
 const TechSkills = () => {
 
-  
+  const gitIcon = <DiGithubBadge className={styles.TechSkills_skillIcon} />;
+  const hTMLIcon = <DiHtml5 className={styles.TechSkills_skillIcon} />;
+  const cSSIcon = <DiCss3 className={styles.TechSkills_skillIcon} />;
+  const sCSSIcon = <DiSass className={styles.TechSkills_skillIcon} />
+  const jSIcon = <DiJsBadge className={styles.TechSkills_skillIcon} />; //inside icon wrap it in a div and style it as skillIcon
+  const bEMIcon = <img src={bEMIconPath} className={styles.TechSkills_skillIcon}></img>
+  const reactIcon = <DiReact className={styles.TechSkills_skillIcon} />
+  const nodeIcon = <DiNodejsSmall className={styles.TechSkills_skillIcon} />
 
-    // const element = <FontAwesomeIcon icon="fab fa-js" />
+  const iconContainerStyles = styles.TechSkills_skillIconContainer;
+  const iconTextStyle = styles.TechSkills_text;
 
-
- 
- 
-const jsIcon = <DiJsBadge className={styles.TechSkills_skillIcon}/> //inside icon wrap it in a div and style it as skillIcon
-const cssIcon= <DiCss3 className={styles.TechSkills_skillIcon}/>
-const iconContainerStyles = styles.TechSkills_skillIconContainer
-const iconTextStyle = styles.TechSkills_text
 
   return (
 <>
@@ -34,36 +32,29 @@ const iconTextStyle = styles.TechSkills_text
         <p className={styles.TechSkills_techText}>I acquired the below technical skills within the self-paced coding course at _nology, Bristol and am currently seeking opportunities to apply these within a role alongside developing my skill set further.</p>
     
         <div className={styles.TechSkills_icons}>
-            <div className={styles.TechSkills_skillIconContainerContainer}>
-                <i className="fa-brands fa-github fa-4x"></i>
-                <span className={styles.TechSkills_text}>GIT</span>
-            </div>
-            <div className={styles.TechSkills_skillIconContainer}>
-                <i className="fa-brands fa-html5 fa-4x"></i>
-                <span className={styles.TechSkills_text}>HTML5</span>
-            </div>
-            <div className={styles.TechSkills_skillIconContainer}>
-                
-                <span className={styles.TechSkills_text}>CSS3</span>
-            </div>
-            <Icon icon={jsIcon} name="JavaScript" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
 
-            <div className={styles.TechSkills_skillIconContainer}>
-                <i className="fa-brands fa-sass fa-4x"></i>
-                <span className={styles.TechSkills_text}>SCSS</span>
-                </div>
-            <div className={styles.TechSkills_skillIconContainer}>
-                <img src="./images/bem.svg" alt="bem icon"  />
-                <span className={styles.TechSkills_text}>BEM</span>
-            </div>
-            <div className={styles.TechSkills_skillIconContainer}>
-                <i className="fa-brands fa-react fa-4x"></i>
-                <span className={styles.TechSkills_text}>React</span>
-            </div>
-            <div className={styles.TechSkills_skillIconContainer}>
-                <i className="fab fa-brands fa-node-js fa-4x"></i>
-            <span className={styles.TechSkills_text}>Node.js</span>
-            </div>
+            
+
+            <Icon icon={gitIcon} name="GIT" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
+
+            <Icon icon={hTMLIcon} name="HTML5" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
+
+            <Icon icon={cSSIcon} name="CSS3" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle} />
+
+
+            <Icon icon={sCSSIcon} name="SCSS" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
+
+            <Icon icon={jSIcon} name="JavaScript" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
+
+
+            <Icon icon={bEMIcon} name="BEM" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
+
+
+            <Icon icon={reactIcon} name="React" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
+
+
+            <Icon icon={nodeIcon} name="Node.js" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
+
         </div>
     </section>
       
