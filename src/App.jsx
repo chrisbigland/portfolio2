@@ -21,3 +21,4 @@ export default App;
 // header - look at myphoto scss - check nesting in react. 
 // at end of project - try removing .module from the file names so I can use BEM naming conventions/nesting etc (also import 'styles')
 // move techskills to a container?
+// add project screenshot images
