@@ -19,4 +19,5 @@ export default App;
 // add in media screen queries to scss - leaving these till last
 // make button reusable component.
 // header - look at myphoto scss - check nesting in react. 
-
+// at end of project - try removing .module from the file names so I can use BEM naming conventions/nesting etc (also import 'styles')
+// move techskills to a container?

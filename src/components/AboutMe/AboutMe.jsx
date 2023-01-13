@@ -9,7 +9,6 @@ const AboutMe = () => {
       <div className={styles.AboutMe} id="about">
         <div className={styles.AboutMe_content}>
             <span className={styles.AboutMe_title}>About Me</span>
-      
             <p className={styles.AboutMe_p}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eveniet impedit minus 
                 voluptatum? Repellat a perferendis animi accusantium nemo qui, ipsum minima sit et illum 
