@@ -24,3 +24,4 @@ export default App;
 // add project screenshot images
 // map over project data to make it appear on page and reduce code. 
 // could use the icon component for the icons in the footer. Just change the stylings using props :)
+// ask coaches to take a look at CV 

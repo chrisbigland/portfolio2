@@ -70,3 +70,5 @@ const projects = [
     previewLink: "https://chrisbigland.github.io/calculator/",
   },
 ];
+
+export default projects;

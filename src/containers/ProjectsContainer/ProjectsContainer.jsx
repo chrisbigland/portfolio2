@@ -4,12 +4,41 @@ import styles from './ProjectsContainer.module.scss'
 import '../../abstracts/globalStyles.scss'
 import devSymbol from '../../images/dev-symbol.svg'
 import eyeSymbol from '../../images/eye-symbol.svg'
+import projects from '../../data/projectsData'
+
 
 const ProjectsContainer = () => {
+
+// const getProjectJsx = (project) => {
+
+//    return <Project project={project} projectTitle={project.title}/>
+// };
+
+
+
+// const mappedProjects = projects.map((project) => {
+//   console.log("mapping each individual project, here's its title - "  + project.title)
+//   getProjectJsx(project)
+//   // <div className={styles.prooooject}>
+//   //    <Project project={project} projectTitle={project.title}/>
+//   //   </div>
+// })
+
+// console.log(mappedProjects)
+
+// console.log(projects)
+
   return (
     <>
       <div>
-        <Project />
+
+        <div>
+        {/* {projects.map((person) => {
+          getProjectJsx(person)}
+          )}
+        {mappedProjects} */}
+        {/* <Project /> */}
+        </div>
         <section className={styles.sectionTwo}>
           <div className={styles.Projects_titleCase} id="projects">
             <h2 className={styles.Projects_title}>My Projects</h2>
