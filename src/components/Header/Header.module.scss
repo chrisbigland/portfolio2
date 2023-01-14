@@ -17,6 +17,7 @@
 .Header_mainHeading {
     display: flex;
     flex-direction: column;
+    margin-top: 20vh;
 }
 
 .Header_mainHeading___name {
@@ -44,8 +45,9 @@
 }
 
 .Header_myPhoto {
-    margin-right: 400px;
+    margin-right: 20vw;
     position: relative;
+    height: 80vh;
 
     .img-circle {
         position: absolute;

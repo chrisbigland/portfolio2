@@ -34,9 +34,9 @@ const TechSkills = () => {
         <div className={styles.TechSkills_icons}>
 
             
-
+      
             <Icon icon={gitIcon} name="GIT" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
-
+      
             <Icon icon={hTMLIcon} name="HTML5" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
 
             <Icon icon={cSSIcon} name="CSS3" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle} />
