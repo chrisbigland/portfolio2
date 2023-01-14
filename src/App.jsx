@@ -18,7 +18,9 @@ export default App;
 // to do - check scss to see if everything is nested as it could be.
 // add in media screen queries to scss - leaving these till last
 // make button reusable component.
-// header - look at myphoto scss - check nesting in react. 
+// header - look at myphoto scss - check nesting in react.
 // at end of project - try removing .module from the file names so I can use BEM naming conventions/nesting etc (also import 'styles')
 // move techskills to a container?
 // add project screenshot images
+// map over project data to make it appear on page and reduce code. 
+// could use the icon component for the icons in the footer. Just change the stylings using props :)

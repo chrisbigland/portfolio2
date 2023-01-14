@@ -15,7 +15,8 @@ const ProjectsContainer = () => {
             <h2 className={styles.Projects_title}>My Projects</h2>
           </div>
 
-          <div className={styles.Projects}>
+          <div className={styles.Projects}> 
+          {/* map projects inside this div? each one can return a project component - put the relevant data inside*/}
             <div className={styles.Projects_project}>
               <span className={styles.Projects_projectBox}></span>
               <span className={styles.Projects_projTool}>REACT, API</span>
@@ -40,16 +41,13 @@ const ProjectsContainer = () => {
                 Portuguese Pairs Game
               </span>
               <p className={styles.projects_projText}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Assumenda, odio at perspiciatis, corrupti blanditiis tempore
-                sint illum laudantium iusto neque molestias quis veniam labore
-                facilis.
+                A fun yet educational take on the classic pairs card game that I developed alongside studying Portuguese myself. Includes audio for pronunciation and example sentences for context. 
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="#">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
-                <a href="#">
+                <a href="https://chrisbigland.github.io/js-game/">
                   preview <img src={eyeSymbol} alt="eye symbol"></img>
                 </a>
               </div>
@@ -62,16 +60,13 @@ const ProjectsContainer = () => {
                 Morse Code Translator
               </span>
               <p className={styles.projects_projText}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Assumenda, odio at perspiciatis, corrupti blanditiis tempore
-                sint illum laudantium iusto neque molestias quis veniam labore
-                facilis.
+                Translates between regular English and Morse Code with buttons to mimic the telegraph sound. In future I intend to incorporate functionality to be able to listen to the combined morse code. 
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="#">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
-                <a href="#">
+                <a href="https://chrisbigland.github.io/morse-code-translator/">
                   preview <img src={eyeSymbol} alt="eye symbol"></img>
                 </a>
               </div>
@@ -155,7 +150,7 @@ const ProjectsContainer = () => {
                 <a href="#">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
-                <a href="#">
+                <a href="https://chrisbigland.github.io/calculator/">
                   preview <img src={eyeSymbol} alt="eye symbol"></img>
                 </a>
               </div>
