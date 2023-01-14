@@ -41,7 +41,7 @@ const ProjectsContainer = () => {
                 Portuguese Pairs Game
               </span>
               <p className={styles.projects_projText}>
-                A fun yet educational take on the classic pairs card game that I developed alongside studying Portuguese myself. Includes audio for pronunciation and example sentences for context. 
+                A fun yet educational class-based take on the classic pairs card game that I developed alongside studying Portuguese myself. Includes audio for pronunciation and example sentences for context. 
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="#">
@@ -79,10 +79,7 @@ const ProjectsContainer = () => {
                 Hostile Aliens
               </span>
               <p className={styles.projects_projText}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Assumenda, odio at perspiciatis, corrupti blanditiis tempore
-                sint illum laudantium iusto neque molestias quis veniam labore
-                facilis.
+              I adopted an object-oriented programming and TDD approach to create a basic alien invaders style 'game'. I focused on writing pure functions to keep them testable. The next step will be to add alien 'fire' functionality so the player can lose points. 
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="#">
@@ -99,10 +96,7 @@ const ProjectsContainer = () => {
               <span className={styles.Projects_projTool}>REACT, API</span>
               <span className={styles.Projects_projSectTitle}>Cat Facts</span>
               <p className={styles.projects_projText}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Assumenda, odio at perspiciatis, corrupti blanditiis tempore
-                sint illum laudantium iusto neque molestias quis veniam labore
-                facilis.
+              A challenge I completed during my course to apply recent learning on interacting with APIs in React and using asynchronous functions to handle promises. The API data (facts) is displayed on the page or individually at random each time a user clicks.  
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="#">
@@ -121,10 +115,7 @@ const ProjectsContainer = () => {
                 Ticket Tracker
               </span>
               <p className={styles.projects_projText}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Assumenda, odio at perspiciatis, corrupti blanditiis tempore
-                sint illum laudantium iusto neque molestias quis veniam labore
-                facilis.
+              A simple tracker for keeping tally of how many tickets have been achieved. I used state to manage a top 3 performers feature, which dynamically renders as the scores change. 
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="#">
@@ -141,10 +132,7 @@ const ProjectsContainer = () => {
               <span className={styles.Projects_projTool}>JAVASCRIPT</span>
               <span className={styles.Projects_projSectTitle}>Calculator</span>
               <p className={styles.projects_projText}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Assumenda, odio at perspiciatis, corrupti blanditiis tempore
-                sint illum laudantium iusto neque molestias quis veniam labore
-                facilis.
+              My first JavaScript project built utilising a variety of different functions and manipulating the DOM to perform and display basic calculations.
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="#">
