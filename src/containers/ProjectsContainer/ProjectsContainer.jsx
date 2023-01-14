@@ -18,11 +18,11 @@ const ProjectsContainer = () => {
           <div className={styles.Projects}> 
           {/* map projects inside this div? each one can return a project component - put the relevant data inside*/}
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}></span>
+              {/* <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/Brewdog-API.png")} alt="Punk API Project Screenshot" ></img></span> */}
               <span className={styles.Projects_projTool}>REACT, API</span>
               <span className={styles.Projects_projSectTitle}>PUNK API</span>
               <p className={styles.projects_projText}>
-              Used the punk API to display and filter beers according to different criteria. I applied knowledge on dynamically fetching API data as well as the useEffect React hook to manage side-effects.
+              I used the punk API to display and filter beers according to different criteria. I applied knowledge on dynamically fetching API data as well as the useEffect React hook to manage side-effects.
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="#">
@@ -35,7 +35,7 @@ const ProjectsContainer = () => {
             </div>
 
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}></span>
+              {/* <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/pairs-game-pic.png")} alt="Pairs Game Project Screenshot" ></img></span> */}
               <span className={styles.Projects_projTool}>JAVASCRIPT</span>
               <span className={styles.Projects_projSectTitle}>
                 Portuguese Pairs Game
@@ -54,7 +54,7 @@ const ProjectsContainer = () => {
             </div>
 
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}></span>
+              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/morse-code-translator.png")} alt="Morse Code Translator Project Screenshot" ></img></span>
               <span className={styles.Projects_projTool}>REACT</span>
               <span className={styles.Projects_projSectTitle}>
                 Morse Code Translator
@@ -73,10 +73,10 @@ const ProjectsContainer = () => {
             </div>
 
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}></span>
-              <span className={styles.Projects_projTool}>REACT</span>
+              {/* <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/alien-invaders-img.png")} alt="Hostile Aliens Project Screenshot" ></img></span> */}
+              <span className={styles.Projects_projTool}>REACT, OOP, TDD</span>
               <span className={styles.Projects_projSectTitle}>
-                Hostile Aliens
+                Hostile Aliens!
               </span>
               <p className={styles.projects_projText}>
               I adopted an object-oriented programming and TDD approach to create a basic alien invaders style 'game'. I focused on writing pure functions to keep them testable. The next step will be to add alien 'fire' functionality so the player can lose points. 
@@ -92,11 +92,11 @@ const ProjectsContainer = () => {
             </div>
 
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}></span>
+              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/cat-facts-pic.png")} alt="Cat Facts Challenge Screenshot" ></img></span>
               <span className={styles.Projects_projTool}>REACT, API</span>
-              <span className={styles.Projects_projSectTitle}>Cat Facts</span>
+              <span className={styles.Projects_projSectTitle}>Cat Facts API Challenge</span>
               <p className={styles.projects_projText}>
-              A challenge I completed during my course to apply recent learning on interacting with APIs in React and using asynchronous functions to handle promises. The API data (facts) is displayed on the page or individually at random each time a user clicks.  
+              A challenge I completed to apply recent learning on interacting with APIs in React and using asynchronous functions to handle promises. The API data (facts) is displayed on the page or individually at random each time a user clicks.  
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="#">
@@ -109,10 +109,10 @@ const ProjectsContainer = () => {
             </div>
 
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}></span>
+              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/ticket-tracker.png")} alt="Ticket Tracker Challenge Screenshot" ></img></span>
               <span className={styles.Projects_projTool}>React</span>
               <span className={styles.Projects_projSectTitle}>
-                Ticket Tracker
+                Ticket Tracker Challenge
               </span>
               <p className={styles.projects_projText}>
               A simple tracker for keeping tally of how many tickets have been achieved. I used state to manage a top 3 performers feature, which dynamically renders as the scores change. 
@@ -128,7 +128,7 @@ const ProjectsContainer = () => {
             </div>
 
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}></span>
+              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/calculator.png")} alt="Calculator Project Screenshot" ></img></span>
               <span className={styles.Projects_projTool}>JAVASCRIPT</span>
               <span className={styles.Projects_projSectTitle}>Calculator</span>
               <p className={styles.projects_projText}>
