@@ -18,11 +18,14 @@
     display: flex;
     flex-direction: column;
     margin-top: 20vh;
+    margin-bottom: 3vh;
 }
 
-.Header_mainHeading___name {
-    font-size: 20px;
+.Header_mainHeadingName {
+    font-size: 1.5rem;
     font-family: $font-display;
+    color: $color-secondary;
+    // color: yellow;
 }
 
 .Header_workButton {
@@ -42,6 +45,8 @@
 
 .Header_subHeading {
     color: $color-secondary;
+    font-size: 2.5rem;
+    // color: yellow;
 }
 
 .Header_myPhoto {

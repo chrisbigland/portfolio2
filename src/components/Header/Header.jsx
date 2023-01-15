@@ -8,13 +8,13 @@ const Header = () => {
       <div className={styles.Header_content}>
         <h1 className={styles.Header_mainHeading}>
           <span
-            className={`${styles.Header_mainHeading___name} ${styles.text}`}
+            className={`${styles.Header_mainHeadingName} ${styles.text}`}
           >
             Hi, I'm Chris!
           </span>
           <span className={styles.Header_subHeading}>
             A <span className="underline">Junior Software Developer</span> based
-            in the UK.
+            in Bristol, UK.
           </span>
         </h1>
         <a href="#projects" className={`button ${styles.Header_workButton}`}>

@@ -21,7 +21,9 @@ export default App;
 // header - look at myphoto scss - check nesting in react.
 // at end of project - try removing .module from the file names so I can use BEM naming conventions/nesting etc (also import 'styles')
 // move techskills to a container?
-// add project screenshot images
+// add a footer icon component
 // map over project data to make it appear on page and reduce code. 
 // could use the icon component for the icons in the footer. Just change the stylings using props :)
 // ask coaches to take a look at CV 
+// personalise name in top right hand corner
+// fix cv download
