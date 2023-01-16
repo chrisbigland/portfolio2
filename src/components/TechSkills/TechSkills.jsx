@@ -17,7 +17,7 @@ const TechSkills = () => {
   const nodeIcon = <DiNodejsSmall className={styles.TechSkills_skillIcon} />
 
   const iconContainerStyles = styles.TechSkills_skillIconContainer;
-  const iconTextStyle = styles.TechSkills_text;
+  const iconTextStyle = styles.TechSkills_iconText;
 
 
   return (
@@ -29,7 +29,7 @@ const TechSkills = () => {
 <i class="fa-brands fa-github-square"></i>
         <h2 className={styles.TechSkills_title}>Technical Skills</h2>
 
-        <p className={styles.TechSkills_techText}>I acquired the below technical skills within the self-paced coding course at _nology, Bristol and am currently seeking opportunities to apply these within a role alongside developing my skill set further.</p>
+        <p className={styles.TechSkills_description}>I acquired the below technical skills within the self-paced coding course at _nology, Bristol and am currently seeking opportunities to apply these within a role alongside developing my skill set further.</p>
     
         <div className={styles.TechSkills_icons}>
 

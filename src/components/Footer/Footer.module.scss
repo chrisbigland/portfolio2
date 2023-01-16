@@ -4,22 +4,25 @@
     min-height: 100px;
     width: 100%;
     max-width: 100%;
-    background-color: #272644;
+    background-color: $color-secondary;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
   }
   .Footer_content {
-    background-color: #272644;
+    background-color: $color-secondary;
     color: #fafafa;
   }
   .Footer_contentIcon {
-    background-color: #272644;
-    color: #fafafa;
+    background-color: $color-secondary;
+    padding: 0px 10px 10px 0px;
   }
+
   .Footer_icons {
-    background-color: #272644;
+    margin: 0px 20px 30px 0px;
   }
+
   .Footer_link {
-    background-color: #272644;
+    background-color: $color-secondary;
   }

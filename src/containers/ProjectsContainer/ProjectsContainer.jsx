@@ -45,7 +45,7 @@ const ProjectsContainer = () => {
               {/* <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/Brewdog-API.png")} alt="Punk API Project Screenshot" ></img></span> */}
               <span className={styles.Projects_projTool}>REACT, API</span>
               <span className={styles.Projects_projSectTitle}>PUNK API</span>
-              <p className={styles.projects_projText}>
+              <p className={styles.Projects_projText}>
                 I used the punk API to display and filter beers according to
                 different criteria. I applied knowledge on dynamically fetching
                 API data as well as the useEffect React hook to manage
@@ -67,7 +67,7 @@ const ProjectsContainer = () => {
               <span className={styles.Projects_projSectTitle}>
                 Portuguese Pairs Game
               </span>
-              <p className={styles.projects_projText}>
+              <p className={styles.Projects_projText}>
                 A fun yet educational class-based take on the classic pairs card
                 game that I developed alongside studying Portuguese myself.
                 Includes audio for pronunciation and example sentences for
@@ -95,10 +95,12 @@ const ProjectsContainer = () => {
               <span className={styles.Projects_projSectTitle}>
                 Morse Code Translator
               </span>
-              <p className={styles.projects_projText}>
+              <p className={styles.Projects_projText}>
                 Translates between regular English and Morse Code with buttons
-                to mimic the telegraph sound. In future I intend to incorporate
-                functionality to be able to listen to the combined morse code.
+                to mimic telegraph sounds. I applied a variety of tests using
+                Jest to ensure functions delivered expected outputs. In future I
+                intend to incorporate functionality for listening to the
+                combined morse code.
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="https://github.com/chrisbigland/morse-code-translator">
@@ -116,17 +118,18 @@ const ProjectsContainer = () => {
               <span className={styles.Projects_projSectTitle}>
                 Hostile Aliens!
               </span>
-              <p className={styles.projects_projText}>
+              <p className={styles.Projects_projText}>
                 I adopted an object-oriented programming and TDD approach to
                 create a basic alien invaders style 'game'. I focused on writing
-                pure functions to keep them testable. The next step will be to
-                add alien 'fire' functionality so the player can lose points.
+                pure functions to keep them testable. The next steps will be to
+                add a timer and alien 'fire' functionality so the player can
+                lose points.
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="https://github.com/chrisbigland/alien-invaders-game">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
-                <a href="#">
+                <a href="https://chrisbigland.github.io/alien-invaders-game/">
                   preview <img src={eyeSymbol} alt="eye symbol"></img>
                 </a>
               </div>
@@ -144,7 +147,7 @@ const ProjectsContainer = () => {
               <span className={styles.Projects_projSectTitle}>
                 Cat Facts API Challenge
               </span>
-              <p className={styles.projects_projText}>
+              <p className={styles.Projects_projText}>
                 A challenge I completed to apply recent learning on interacting
                 with APIs in React and using asynchronous functions to handle
                 promises. The cat fact API data is displayed on the page or
@@ -172,7 +175,7 @@ const ProjectsContainer = () => {
               <span className={styles.Projects_projSectTitle}>
                 Ticket Tracker Challenge
               </span>
-              <p className={styles.projects_projText}>
+              <p className={styles.Projects_projText}>
                 A simple tracker for keeping tally of how many tickets have been
                 achieved. I used state to manage a top 3 performers feature,
                 which dynamically renders as the scores change.
@@ -197,7 +200,7 @@ const ProjectsContainer = () => {
               </span>
               <span className={styles.Projects_projTool}>JAVASCRIPT</span>
               <span className={styles.Projects_projSectTitle}>Calculator</span>
-              <p className={styles.projects_projText}>
+              <p className={styles.Projects_projText}>
                 My first JavaScript project built utilising a variety of
                 different functions and manipulating the DOM to perform and
                 display basic calculations.

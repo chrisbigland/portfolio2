@@ -2,7 +2,7 @@
 
 .AboutMe {
     height: 65vh;
-    padding: 50px 100px;
+    padding: 50px 300px;
     width: 100%;
     background-color: #ddf5f3;
     display: flex;
@@ -14,25 +14,16 @@
     background-color: #ddf5f3;
     padding: 50px;
     justify-content: center;
-    width: 75%;
   }
   .AboutMe_title {
-    color: #272644;
+    color: $color-secondary;
     background-color: #ddf5f3;
     font-size: 30px;
     font-weight: 900;
+    text-align: center;
   }
   .AboutMe_p {
     background-color: #ddf5f3;
-    color: #8C9CB1;
-    font-size: 1rem;
-  }
-  .AboutMe_cartoon {
-    background-color: #ddf5f3;
-    display: flex;
-    align-items: center;
-  }
-  .AboutMe_cartoonImg {
-    height: 40vh;
-    background-color: #ddf5f3;
+    color: $color-main-text;
+    font-size: 1.2rem;
   }
