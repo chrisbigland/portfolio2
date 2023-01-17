@@ -42,7 +42,7 @@ const ProjectsContainer = () => {
           <div className={styles.Projects}>
             {/* map projects inside this div? each one can return a project component - put the relevant data inside*/}
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/Brewdog.png")} alt="Punk API Project Screenshot" ></img></span>
+              {/* <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/Brewdog.png")} alt="Punk API Project Screenshot" ></img></span> */}
               <span className={styles.Projects_projTool}>REACT, API</span>
               <span className={styles.Projects_projSectTitle}>PUNK API</span>
               <p className={styles.Projects_projText}>
@@ -55,14 +55,14 @@ const ProjectsContainer = () => {
                 <a href="https://github.com/chrisbigland/punk-api-ticket-tracker">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
-                <a href="#">
+                <a href="https://brewdogapi-66acb.web.app/">
                   preview <img src={eyeSymbol} alt="eye symbol"></img>
                 </a>
               </div>
             </div>
 
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/pairs-game-pic.png")} alt="Pairs Game Project Screenshot" ></img></span>
+              {/* <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/pairs-game-pic.png")} alt="Pairs Game Project Screenshot" ></img></span> */}
               <span className={styles.Projects_projTool}>JAVASCRIPT</span>
               <span className={styles.Projects_projSectTitle}>
                 Portuguese Pairs Game
@@ -113,7 +113,7 @@ const ProjectsContainer = () => {
             </div>
 
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/hostile-aliens.png")} alt="Hostile Aliens Project Screenshot" ></img></span>
+              {/* <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/hostile-aliens.png")} alt="Hostile Aliens Project Screenshot" ></img></span> */}
               <span className={styles.Projects_projTool}>REACT, OOP, TDD</span>
               <span className={styles.Projects_projSectTitle}>
                 Hostile Aliens!
