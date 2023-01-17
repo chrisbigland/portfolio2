@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../abstracts/globalStyles.scss'
+import styles from './Icon.module.scss'
 import { DiJsBadge, DiCss3 } from "react-icons/di";
 
 
@@ -9,9 +9,11 @@ const Icon = (props) => {
 
   return (
 
-      <div className={iconContainerStyles}> 
+      <div className={styles.iconContainerStyles}> 
+      <div className={styles.icon}>
         {icon}
-        <span className={textStyle}>{name}</span>
+      </div>
+        <span className={styles.textStyle}>{name}</span>
       </div>
   );
 }

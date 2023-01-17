@@ -3,14 +3,15 @@ import Icon from '../Icon';
 import styles from './TechSkills.module.scss'
 import '../../abstracts/globalStyles.scss'
 import bEMIconPath from "../../images/bem.svg"
-import { DiJsBadge, DiCss3, DiHtml5, DiGithubBadge, DiSass, DiReact, DiNodejsSmall } from "react-icons/di";
+import { DiJsBadge, DiCss3, DiHtml5, DiGithubBadge, DiReact, DiNodejsSmall } from "react-icons/di";
+import { SiSass } from "react-icons/si";
 
 const TechSkills = () => {
 
   const gitIcon = <DiGithubBadge className={styles.TechSkills_skillIcon} />;
   const hTMLIcon = <DiHtml5 className={styles.TechSkills_skillIcon} />;
   const cSSIcon = <DiCss3 className={styles.TechSkills_skillIcon} />;
-  const sCSSIcon = <DiSass className={styles.TechSkills_skillIcon} />
+  const sCSSIcon = <SiSass className={styles.TechSkills_skillIcon} />
   const jSIcon = <DiJsBadge className={styles.TechSkills_skillIcon} />; //inside icon wrap it in a div and style it as skillIcon
   const bEMIcon = <img src={bEMIconPath} className={styles.TechSkills_skillIcon}></img>
   const reactIcon = <DiReact className={styles.TechSkills_skillIcon} />
@@ -22,7 +23,6 @@ const TechSkills = () => {
 
   return (
 <>
-    
     <div>
 <section className={styles.TechSkills}>
 
@@ -45,7 +45,6 @@ const TechSkills = () => {
             <Icon icon={sCSSIcon} name="SCSS" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
 
             <Icon icon={jSIcon} name="JavaScript" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
-
 
             <Icon icon={bEMIcon} name="BEM" iconContainerStyles={iconContainerStyles} textStyle={iconTextStyle}/>
 

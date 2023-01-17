@@ -7,6 +7,7 @@ const App = () => {
   return (
     <>
       <Nav />
+      {/* <img src={require("./images/Chris.png" alt="Chris Bigland logo")} /></img> */}
       <Routes />
       <Footer />
     </>
