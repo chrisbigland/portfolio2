@@ -10,7 +10,7 @@ const Nav = () => {
           <a className={styles.Navigation_button} href="#">Home</a> 
           <a className={styles.Navigation_button} href="#about">About</a>
           <a className={styles.Navigation_button} href="#projects">Projects</a>
-          <a href="#" className={`button ${styles.Navigation_button} ${styles.Navigation_button___git}`}>Get in Touch</a>
+          <a href="mailto:christopherbigland@gmail.com" className={`button ${styles.Navigation_button} ${styles.Navigation_button___git}`}>Get in Touch</a>
           {/* do we need the git modifier class?  */}
           {/* button a global style - move? */}
       </div>
