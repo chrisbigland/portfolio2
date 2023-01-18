@@ -42,7 +42,7 @@ const ProjectsContainer = () => {
           <div className={styles.Projects}>
             {/* map projects inside this div? each one can return a project component - put the relevant data inside*/}
             <div className={styles.Projects_project}>
-              {/* <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/Brewdog.png")} alt="Punk API Project Screenshot" ></img></span> */}
+              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/Brewdog.png")} alt="Punk API Project Screenshot" ></img></span>
               <span className={styles.Projects_projTool}>REACT, API</span>
               <span className={styles.Projects_projSectTitle}>PUNK API</span>
               <p className={styles.Projects_projText}>
@@ -62,7 +62,7 @@ const ProjectsContainer = () => {
             </div>
 
             <div className={styles.Projects_project}>
-              {/* <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/pairs-game-pic.png")} alt="Pairs Game Project Screenshot" ></img></span> */}
+              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/pairs-game-pic.png")} alt="Pairs Game Project Screenshot" ></img></span>
               <span className={styles.Projects_projTool}>JAVASCRIPT</span>
               <span className={styles.Projects_projSectTitle}>
                 Portuguese Pairs Game
@@ -113,17 +113,23 @@ const ProjectsContainer = () => {
             </div>
 
             <div className={styles.Projects_project}>
-              {/* <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/hostile-aliens.png")} alt="Hostile Aliens Project Screenshot" ></img></span> */}
+              <span className={styles.Projects_projectBox}>
+                <img
+                  className={styles.Projects_projImg}
+                  src={require("../../images/hostile-aliens.png")}
+                  alt="Hostile Aliens Project Screenshot"
+                ></img>
+              </span>
               <span className={styles.Projects_projTool}>REACT, OOP, TDD</span>
               <span className={styles.Projects_projSectTitle}>
                 Hostile Aliens!
               </span>
               <p className={styles.Projects_projText}>
-                I adopted an object-oriented programming and TDD approach to
-                create a basic alien invaders style 'game'. I focused on writing
-                pure functions to keep them testable. The next steps will be to
-                add a timer and alien 'fire' functionality so the player can
-                lose points.
+                I adopted an object-oriented programming and TDD
+                approach to create a basic alien invaders style 'game'. I
+                focused on writing pure functions to keep them testable. The
+                next steps will be to add a timer and alien 'fire' functionality
+                so the player can lose points.
               </p>
               <div className={styles.Projects_codPrevIcons}>
                 <a href="https://github.com/chrisbigland/alien-invaders-game">
