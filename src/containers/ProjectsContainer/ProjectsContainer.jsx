@@ -42,7 +42,13 @@ const ProjectsContainer = () => {
           <div className={styles.Projects}>
             {/* map projects inside this div? each one can return a project component - put the relevant data inside*/}
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/Brewdog.png")} alt="Punk API Project Screenshot" ></img></span>
+              <span className={styles.Projects_projectBox}>
+                {/* <img
+                  className={styles.Projects_projImg}
+                  src={require("../../images/Brewdog.png")}
+                  alt="Punk API Project Screenshot"
+                ></img> */}
+              </span>
               <span className={styles.Projects_projTool}>REACT, API</span>
               <span className={styles.Projects_projSectTitle}>PUNK API</span>
               <p className={styles.Projects_projText}>
@@ -52,7 +58,7 @@ const ProjectsContainer = () => {
                 side-effects.
               </p>
               <div className={styles.Projects_codPrevIcons}>
-                <a href="https://github.com/chrisbigland/punk-api-ticket-tracker">
+                <a className={styles.devSymbStyles} href="https://github.com/chrisbigland/punk-api-ticket-tracker">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
                 <a href="https://brewdogapi-66acb.web.app/">
@@ -62,7 +68,13 @@ const ProjectsContainer = () => {
             </div>
 
             <div className={styles.Projects_project}>
-              <span className={styles.Projects_projectBox}><img className={styles.Projects_projImg} src={require("../../images/pairs-game-pic.png")} alt="Pairs Game Project Screenshot" ></img></span>
+              <span className={styles.Projects_projectBox}>
+                {/* <img
+                  className={styles.Projects_projImg}
+                  src={require("../../images/pairs-game-pic.png")}
+                  alt="Pairs Game Project Screenshot"
+                ></img> */}
+              </span>
               <span className={styles.Projects_projTool}>JAVASCRIPT</span>
               <span className={styles.Projects_projSectTitle}>
                 Portuguese Pairs Game
@@ -74,7 +86,7 @@ const ProjectsContainer = () => {
                 context.
               </p>
               <div className={styles.Projects_codPrevIcons}>
-                <a href="https://github.com/chrisbigland/js-game">
+                <a className={styles.devSymbStyles} href="https://github.com/chrisbigland/js-game">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
                 <a href="https://chrisbigland.github.io/js-game/">
@@ -103,7 +115,7 @@ const ProjectsContainer = () => {
                 combined morse code.
               </p>
               <div className={styles.Projects_codPrevIcons}>
-                <a href="https://github.com/chrisbigland/morse-code-translator">
+                <a className={styles.devSymbStyles} href="https://github.com/chrisbigland/morse-code-translator">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
                 <a href="https://chrisbigland.github.io/morse-code-translator/">
@@ -114,25 +126,25 @@ const ProjectsContainer = () => {
 
             <div className={styles.Projects_project}>
               <span className={styles.Projects_projectBox}>
-                <img
+                {/* <img
                   className={styles.Projects_projImg}
                   src={require("../../images/hostile-aliens.png")}
                   alt="Hostile Aliens Project Screenshot"
-                ></img>
+                ></img> */}
               </span>
               <span className={styles.Projects_projTool}>REACT, OOP, TDD</span>
               <span className={styles.Projects_projSectTitle}>
                 Hostile Aliens!
               </span>
               <p className={styles.Projects_projText}>
-                I adopted an object-oriented programming and TDD
-                approach to create a basic alien invaders style 'game'. I
-                focused on writing pure functions to keep them testable. The
-                next steps will be to add a timer and alien 'fire' functionality
-                so the player can lose points.
+                I adopted an object-oriented programming and TDD approach to
+                create a basic alien invaders style 'game'. I focused on writing
+                pure functions to keep them testable. The next steps will be to
+                add a timer and alien 'fire' functionality so the player can
+                lose points.
               </p>
               <div className={styles.Projects_codPrevIcons}>
-                <a href="https://github.com/chrisbigland/alien-invaders-game">
+                <a className={styles.devSymbStyles} href="https://github.com/chrisbigland/alien-invaders-game">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
                 <a href="https://chrisbigland.github.io/alien-invaders-game/">
@@ -160,7 +172,7 @@ const ProjectsContainer = () => {
                 individually at random each time a user clicks.
               </p>
               <div className={styles.Projects_codPrevIcons}>
-                <a href="https://github.com/chrisbigland/cat-facts">
+                <a className={styles.devSymbStyles} href="https://github.com/chrisbigland/cat-facts">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
                 <a href="https://cat-facts-d8a41.web.app/">
@@ -187,7 +199,7 @@ const ProjectsContainer = () => {
                 which dynamically renders as the scores change.
               </p>
               <div className={styles.Projects_codPrevIcons}>
-                <a href="https://github.com/chrisbigland/ticket-tracker">
+                <a className={styles.devSymbStyles} href="https://github.com/chrisbigland/ticket-tracker">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
                 <a href="https://ticket-tracker-3d123.web.app/">
@@ -212,7 +224,7 @@ const ProjectsContainer = () => {
                 display basic calculations.
               </p>
               <div className={styles.Projects_codPrevIcons}>
-                <a href="https://github.com/chrisbigland/calculator">
+                <a className={styles.devSymbStyles} href="https://github.com/chrisbigland/calculator">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
                 <a href="https://chrisbigland.github.io/calculator/">

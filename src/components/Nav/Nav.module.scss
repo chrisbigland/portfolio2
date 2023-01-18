@@ -5,7 +5,7 @@
     justify-content: space-between;
     padding: 3.5rem 3rem;
     margin: 20px;
-    height: 10%;
+    height: 10vh;
     background-color: #fafafa;
     font-size: 2rem;
   }
@@ -18,4 +18,31 @@
   }
   .Navigation_buttons {
     display: inline-block;
+  }
+
+  @media screen and (max-width: 1028px) {
+    .Navigation {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .Navigation {
+      font-size: 0.8rem;
+    }
+
+    .Navigation_button {
+      padding: 1rem;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .Navigation {
+      font-size: 0.5rem;
+    }
+
+    .Navigation_button {
+      padding: 0.4rem;
+    }
   }
