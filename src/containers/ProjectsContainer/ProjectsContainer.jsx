@@ -49,7 +49,7 @@ const ProjectsContainer = () => {
                 ></img> */}
               </span>
               <span className={styles.Projects_projTool}>REACT, API</span>
-              <span className={styles.Projects_projSectTitle}>PUNK API</span>
+              <span className={styles.Projects_projSectTitle}>Brewdog 'Punk' API</span>
               <p className={styles.Projects_projText}>
                 I used the punk API to display and filter beers according to
                 different criteria. I applied knowledge on dynamically fetching
