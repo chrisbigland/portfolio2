@@ -5,7 +5,7 @@ import { DiJsBadge, DiCss3 } from "react-icons/di";
 
 const Icon = (props) => {
 
-  const { icon, name, iconContainerStyles, textStyle } = props;
+  const { icon, name } = props;
 
   return (
 

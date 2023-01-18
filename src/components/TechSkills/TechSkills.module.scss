@@ -30,14 +30,6 @@
     margin-top: 10vh;
   }
 
-  .TechSkills_skillIconContainer {
-    display: flex;
-    flex-direction: column;
-    
-  }
-  .TechSkills_iconText {
-    color: $color-main-text;
-  }
 
   .TechSkills_skillIcon {
     fill: #BAE8EA;
@@ -45,3 +37,72 @@
 
 
 
+  @media screen and (max-width: 1028px) {
+
+    .TechSkills_description {
+      font-size: 1.2rem;
+    }
+  }
+
+
+  // .TechSkills_icons {
+  //   display: flex;
+  //   column-gap: 10%;
+  //   justify-content: space-evenly;
+  //   width: 100%;
+  //   max-width: 1200px;
+  //   margin-top: 10vh;
+  // }
+
+  @media screen and (max-width: 1450px) {
+      .TechSkills_icons {
+            column-gap: 8%;
+      }
+  }
+
+  @media screen and (max-width: 1300px) {
+    .TechSkills_icons {
+          column-gap: 4%;
+    }
+}
+  @media screen and (max-width: 750px) {
+
+    .TechSkills_description {
+      font-size: 1rem;
+    }
+
+    .TechSkills_title {
+      font-size: 1.5rem;
+    }
+
+    .TechSkills_icons {
+      column-gap: 1%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .TechSkills_description {
+      font-size: 0.8rem;
+    }
+  }
+  // @media screen and (max-width: 1000px) {
+  //   .tech-skills__tech-text {
+  //     padding: 0px 250px;
+  //   }
+  // }
+  // @media screen and (max-width: 800px) {
+  //   .tech-skills__tech-text {
+  //     padding: 0px 200px;
+  //   }
+  // }
+  // @media screen and (max-width: 680px) {
+  //   .tech-skills__tech-text {
+  //     padding: 0px 100px;
+  //   }
+  // }
+  // @media screen and (max-width: 360px) {
+  //   .tech-skills__tech-text {
+  //     padding: 0px 20px;
+  //   }
+  // }

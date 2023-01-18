@@ -1,11 +1,44 @@
 @import '../../abstracts/variables.scss';
 @import '../../abstracts/globalStyles.scss';
 
-.iconContainerStyles {
+// .iconContainerStyles {
     .icon {
         font-size: 4rem;
     }
+
     .textStyle {
         font-size: 1.5rem;
     }
-}
+// }
+
+
+
+@media screen and (max-width: 900px) {
+    .icon {
+        font-size: 3rem;
+    }
+
+    .textStyle {
+        font-size: 1.3rem;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .icon {
+        font-size: 2.5rem;
+    }
+
+    .textStyle {
+        font-size: 1.1rem;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .icon {
+        font-size: 1.2rem;
+    }
+
+    .textStyle {
+        font-size: 0.9rem;
+    }
+  }

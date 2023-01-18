@@ -25,7 +25,6 @@ const TechSkills = () => {
   const reactIcon = <DiReact className={styles.TechSkills_skillIcon} />;
   const nodeIcon = <DiNodejsSmall className={styles.TechSkills_skillIcon} />;
 
-  const iconContainerStyles = styles.TechSkills_skillIconContainer;
   const iconTextStyle = styles.TechSkills_iconText;
 
   return (
@@ -45,57 +44,41 @@ const TechSkills = () => {
             <Icon
               icon={gitIcon}
               name="GIT"
-              iconContainerStyles={iconContainerStyles}
-              textStyle={iconTextStyle}
             />
 
             <Icon
               icon={hTMLIcon}
               name="HTML5"
-              iconContainerStyles={iconContainerStyles}
-              textStyle={iconTextStyle}
             />
 
             <Icon
               icon={cSSIcon}
               name="CSS3"
-              iconContainerStyles={iconContainerStyles}
-              textStyle={iconTextStyle}
             />
 
             <Icon
               icon={sCSSIcon}
               name="SCSS"
-              iconContainerStyles={iconContainerStyles}
-              textStyle={iconTextStyle}
             />
 
             <Icon
               icon={jSIcon}
               name="JavaScript"
-              iconContainerStyles={iconContainerStyles}
-              textStyle={iconTextStyle}
             />
 
             <Icon
               icon={bEMIcon}
               name="BEM"
-              iconContainerStyles={iconContainerStyles}
-              textStyle={iconTextStyle}
             />
 
             <Icon
               icon={reactIcon}
               name="React"
-              iconContainerStyles={iconContainerStyles}
-              textStyle={iconTextStyle}
             />
 
             <Icon
               icon={nodeIcon}
               name="Node.js"
-              iconContainerStyles={iconContainerStyles}
-              textStyle={iconTextStyle}
             />
           </div>
         </section>
