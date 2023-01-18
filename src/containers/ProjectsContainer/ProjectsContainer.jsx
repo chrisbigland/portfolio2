@@ -157,7 +157,7 @@ const ProjectsContainer = () => {
                 <a href="https://github.com/chrisbigland/cat-facts">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
-                <a href="#">
+                <a href="https://cat-facts-d8a41.web.app/">
                   preview <img src={eyeSymbol} alt="eye symbol"></img>
                 </a>
               </div>
@@ -184,7 +184,7 @@ const ProjectsContainer = () => {
                 <a href="https://github.com/chrisbigland/ticket-tracker">
                   code <img src={devSymbol} alt="developer symbol"></img>
                 </a>
-                <a href="#">
+                <a href="https://ticket-tracker-3d123.web.app/">
                   preview <img src={eyeSymbol} alt="eye symbol"></img>
                 </a>
               </div>
