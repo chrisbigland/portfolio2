@@ -7,31 +7,30 @@ import eyeSymbol from "../../images/eye-symbol.svg";
 import projects from "../../data/projectsData";
 
 const ProjectsContainer = () => {
-  // const getProjectJsx = (project) => {
-
-  //    return <Project project={project} projectTitle={project.title}/>
-  // };
+  const getProjectJsx = (project) => {
+     return <Project project={project} projectTitle={project.title}/>
+  };
 
   // const mappedProjects = projects.map((project) => {
   //   console.log("mapping each individual project, here's its title - "  + project.title)
   //   getProjectJsx(project)
-  //   // <div className={styles.prooooject}>
-  //   //    <Project project={project} projectTitle={project.title}/>
-  //   //   </div>
+    // <div className={styles.mappedProject}>
+    //    <Project project={project} projectTitle={project.title}/>
+    //   </div>
   // })
 
   // console.log(mappedProjects)
 
-  // console.log(projects)
+  console.log(projects)
 
   return (
     <>
       <div>
         <div>
-          {/* {projects.map((person) => {
+          {projects.map((person) => {
           getProjectJsx(person)}
           )}
-        {mappedProjects} */}
+        {/* {mappedProjects}  */}
           {/* <Project /> */}
         </div>
         <section className={styles.sectionTwo}>
