@@ -28,3 +28,60 @@
     font-size: 1.2rem;
     text-align: center;
   }
+
+  @media screen and (max-width: 1372px) {
+    .AboutMe {
+      padding: 30px 150px;
+      margin-top: 20px;
+    }
+  }
+
+    @media screen and (max-width: 1000px) {
+      .AboutMe {
+        padding: 30px 90px;
+        margin-top: 20px;
+      }
+
+    
+      .AboutMe_p {
+        background-color: #ddf5f3;
+        color: $color-main-text;
+        font-size: 1.1rem;
+        text-align: center;
+      }
+
+  }
+  
+
+
+  @media screen and (max-width: 700px) {
+    .AboutMe {
+      padding: 30px 50px;
+      margin-top: 20px;
+    }
+
+  
+    .AboutMe_p {
+      background-color: #ddf5f3;
+      color: $color-main-text;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 525px) {
+  .AboutMe {
+    padding: 0px 10px;
+    margin-top: 20px;
+  }
+
+
+  .AboutMe_p {
+    background-color: #ddf5f3;
+    color: $color-main-text;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+}

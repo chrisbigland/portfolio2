@@ -23,8 +23,7 @@ const AboutMe = () => {
             <p className={styles.AboutMe_p}>
               I'm fairly fresh into the software development world, having
               recently undertaken taken the plunge into a new career by taking a
-              front-end focused developer course at _nology in Bristol (HTML,
-              CSS, JavaScript, React, Node.js). The course has been the perfect
+              front-end focused developer course at _nology in Bristol. The course has been the perfect
               opportunity to apply newly learnt concepts within the above
               projects, breaking down what at first seem like huge problems into
               manageable tasks.
@@ -36,8 +35,6 @@ const AboutMe = () => {
               somewhere. I play saxophone, am learning Brazilian Portuguese and
               have recently taken up longboarding and surfing.
             </p>
-
-            {/**check out where the cartoon image is */}
           </div>
         </div>
       </div>

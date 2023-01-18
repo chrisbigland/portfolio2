@@ -73,3 +73,19 @@
   .devSymbStyles {
     margin-right: 1vw;
   }
+
+  @media screen and (max-width: 1372px) {
+    .Projects {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (max-width: 964px) {
+    .Projects {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .projects__projectBox {
+      width: 100%;
+    }
+  }
