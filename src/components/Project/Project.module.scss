@@ -1,1 +1,52 @@
 @import '../../abstracts/variables.scss';
+
+
+  .Projects_projectBox {
+    width: 400px;
+    height: 300px;
+    background-color: #ddf5f3;
+    border: 2px solid green;
+  }
+//   .Projects_project {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+
+  .Projects_projTool {
+    font-size: 15px;
+    font-weight: 900;
+    color: #BAE8EA;
+    padding-top: 10px;
+  }
+  .Projects_projText {
+    text-align: center;
+    padding-top: 10px;
+    color: $color-main-text;
+    // font-weight: bold;
+    // background-color: blue;
+  }
+  .Projects_projSectTitle {
+    color: #272644;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 10px;
+  }
+  .Projects_codPrevIcons {
+    padding-top: 10px;
+    color: $color-secondary;
+  }
+
+
+
+
+  .Projects_projImg {
+    width: 95%;
+    height: 95%;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+  .devSymbStyles {
+    margin-right: 1vw;
+  }
