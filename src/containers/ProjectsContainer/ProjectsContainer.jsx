@@ -31,8 +31,8 @@ const ProjectsContainer = () => {
           <h2 className={styles.Projects_title}>My Projects</h2>
         </div>
         <div className={styles.Projects}>
-          {projects.map((person) => {
-            return getProjectJsx(person);
+          {projects.map((project) => {
+            return getProjectJsx(project);
           })}
         </div>
       </section>
