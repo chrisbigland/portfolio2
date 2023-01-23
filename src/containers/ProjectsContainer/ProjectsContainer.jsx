@@ -26,7 +26,7 @@ const ProjectsContainer = () => {
   return (
     <>
 
-      <section className={styles.sectionTwo}>
+      <section className={styles.projectsContainer}>
         <div className={styles.Projects_titleCase} id="projects">
           <h2 className={styles.Projects_title}>My Projects</h2>
         </div>

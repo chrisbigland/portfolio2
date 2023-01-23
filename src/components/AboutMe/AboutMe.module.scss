@@ -3,7 +3,7 @@
 .AboutMe {
     height: 65vh;
     padding: 50px 300px;
-    width: 100%;
+    width: 100vw;
     background-color: #ddf5f3;
     display: flex;
     justify-content: space-between;
@@ -18,14 +18,14 @@
   .AboutMe_title {
     color: $color-secondary;
     background-color: #ddf5f3;
-    font-size: 30px;
+    font-size: 1.4rem;
     font-weight: 900;
     text-align: center;
   }
   .AboutMe_p {
     background-color: #ddf5f3;
     color: $color-main-text;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
   }
 
@@ -36,17 +36,22 @@
     }
   }
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1120px) {
       .AboutMe {
         padding: 30px 90px;
         margin-top: 20px;
       }
 
+      .AboutMe_title {
+        font-size: 1.3rem;
+      }
+  
+
     
       .AboutMe_p {
         background-color: #ddf5f3;
         color: $color-main-text;
-        font-size: 1.1rem;
+        font-size: 1rem;
         text-align: center;
       }
 
@@ -54,23 +59,27 @@
   
 
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
     .AboutMe {
       padding: 30px 50px;
       margin-top: 20px;
+    }
+
+    .AboutMe_title {
+      font-size: 1rem;
     }
 
   
     .AboutMe_p {
       background-color: #ddf5f3;
       color: $color-main-text;
-      font-size: 1rem;
+      font-size: 0.9rem;
       text-align: center;
     }
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .AboutMe {
     padding: 0px 10px;
     margin-top: 20px;
@@ -81,6 +90,22 @@
     background-color: #ddf5f3;
     color: $color-main-text;
     font-size: 0.8rem;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .AboutMe {
+    padding: 0px 5px;
+    margin-top: 20px;
+  }
+
+
+  .AboutMe_p {
+    background-color: #ddf5f3;
+    color: $color-main-text;
+    font-size: 0.7rem;
     text-align: center;
   }
 

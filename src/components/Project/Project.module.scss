@@ -23,6 +23,7 @@
     font-size: 30px;
     font-weight: 900;
     padding-top: 10px;
+    text-align: center;
   }
   .Projects_codPrevIcons {
     padding-top: 10px;
@@ -41,4 +42,11 @@
 
   .devSymbStyles {
     margin-right: 1vw;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .Projects_projectBox {
+      width: 100%;
+    }
   }

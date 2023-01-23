@@ -1,6 +1,6 @@
 @import '../../abstracts/variables.scss';
 
-.sectionTwo {
+.projectsContainer {
     padding: 0px 100px;
 }
 
@@ -40,10 +40,5 @@
   @media screen and (max-width: 964px) {
     .Projects {
       grid-template-columns: 1fr;
-    }
-  }
-  @media screen and (max-width: 550px) {
-    .projects__projectBox {
-      width: 100%;
     }
   }
