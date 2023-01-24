@@ -63,7 +63,7 @@ const projects = [
     title: "Calculator",
     skills: "JavaScript",
     description:
-      "My first JavaScript project built utilising a variety of different functions and manipulating the DOM to perform and display basic calculations.",
+      "My first JavaScript project built utilising a variety of different functions and manipulating the DOM to perform and display basic calculations. Currently functioning just for desktop",
     image: require("/Users/christopherbigland/Desktop/NOLOGY/development/portfolio2/src/images/calculator.png"),
     altImage: "Calculator Project Screenshot",
     codeLink: "https://github.com/chrisbigland/calculator",
